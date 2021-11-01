@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+
+    .footer__nav {
+        
+        .footer__link {
+            display: inline-block;
+            padding: $marginDeg/2 $marginDeg/3;
+            text-decoration: none;
+            color: $colorLink;
+        }
+    }
+
+    .footer__item {
+        padding-bottom: $marginDeg/2;
+    }
+}

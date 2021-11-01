@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arimo',
+    sans-serif;
+}
+
+.wrapper {
+    width: 78%;
+    margin: 0 auto;
+
+    .header {
+
+        // menu
+
+        .header__menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .menu__item {
+                list-style: none;
+                
+                .menu__link {
+                    display: block;
+                    color: $colorTitle;
+                    text-decoration: none;
+                    padding: $marginMain;                    
+                }
+                
+                .menu__link-special {
+                    background-color: $colorTitle;
+                    border-radius: 0 0 5px 5px;
+                    padding: $marginMain $marginMain*2;
+                    margin-right: $marginMain+5px;
+                    color: #fff;
+                }
+
+                .menu__link:hover {                    
+                    color: $backgroundMain;                    
+                }
+            }
+        }
+
+        // heading
+
+        .header__heading {
+            margin-top: $marginDeg+3;
+            text-align: center;            
+
+            .heading__wrap-primary {   
+                border-bottom: 2px solid $colorBorder;
+                padding-bottom: $marginDeg;
+                
+                .heading-wrap-primary__logo-wrap {
+                    margin: 0 auto $marginDeg/2 auto;
+                    width: 13%;
+                    min-width: $marginMain*5;
+                    
+                    .heading__logo {                        
+                        width: 100%;
+                    }
+                }
+                
+                .heading-wrap-primary__title {
+                    font-size: 2.8rem;
+                    font-weight: bold;
+                    text-transform: uppercase;              
+                }
+            }
+
+            .heading__wrap-secondary {
+                margin-top: $marginDeg+2;
+                border-bottom: 2px solid $colorBorder;
+                padding-bottom: $marginDeg;
+
+                .heading-wrap-secondary__title {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: $colorTitle;
+                    margin-bottom: $marginDeg/3;
+                }
+
+                .heading-wrap-secondary__discription {
+                    color: $colorMain;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}

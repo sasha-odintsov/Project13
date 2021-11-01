@@ -1,0 +1,77 @@
+.main {
+
+    .main__heading-wrap {
+        display: flex;
+        justify-content: space-between;
+        color: $colorTitle;
+        margin-top: $marginDeg/5;
+        padding: 0 $marginMain/2;
+
+        .main__heading {
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: 'Zen Antique Soft',
+            serif;
+        }
+
+        .main__heading-item {
+            font-size: 1.1rem;
+        }
+    }
+    
+    // main portfolio
+
+    .main__imgs-wrap {
+        display: flex;
+        flex-wrap: wrap;
+
+        .main__img-link {
+            display: block;
+            margin: $marginDeg/2 $marginDeg/5 $marginDeg/5 0;
+            width: 30%;
+            min-width: 200px;
+            
+            .main__img {
+                width: 100%;
+            }
+        }
+    }
+
+    // main discriptions
+
+    .main__discriptions_primary-wrap {
+        margin-top: $marginDeg*0.6;
+        text-align: center;
+        border-bottom: 2px solid $colorBorder;
+        padding-bottom: $marginDeg/2;
+
+        .main__button {
+            padding: 2% 8%;
+            background-color: $backgroundMain;
+            border: none;
+            border-radius: 5px;
+            font-family: 'Zen Antique Soft',
+            serif;
+            font-size: 1rem;                
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .discriptions__heading {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: $marginDeg/5;
+        }
+
+        .discription__title {
+            color: $colorTitle-mini;
+            margin-top: $marginDeg/3;
+        }
+
+        .discriptions__content {
+            color: $colorMain;
+            margin-top: $marginDeg/3;
+            line-height: 1.5;
+        }
+    }    
+}
