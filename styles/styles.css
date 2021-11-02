@@ -184,6 +184,8 @@ body {
 
 .wrapper .header .header__menu .menu__item .menu__link:hover {
   color: #df6267;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .wrapper .header .header__heading {
