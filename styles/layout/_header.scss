@@ -10,35 +10,39 @@ body {
     .header {
 
         // menu
-
+        
         .header__menu {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            position: relative; 
 
             .menu__item {
-                list-style: none;                
+                list-style: none;   
+                display: inline-block;
+                
+                .submenu__item {
+                    display: block;
+                }
                 
                 .menu__link {
                     display: block;
                     color: $colorTitle;
                     text-decoration: none;
                     padding: $marginMain; 
-                }
 
+                }
+                
                 .menu-link__submenu {
                     position: absolute;
-                    // display: none;
+                    display: none;
                     border: $colorTitle 1px solid;
-                }
-
-                // .submenu__item {
-                //     display: block;
-                // }
-
-                .subnav__link {
+                    background-color: #fff;
+                }                               
+                
+                .submenu__link {
                     display: block;
-                    padding: $marginMain/2 $marginMain;
+                    padding: $marginMain/2 $marginMain*2;
                     text-decoration: none;
                     color: $colorTitle-mini;
                 }
@@ -50,11 +54,18 @@ body {
                     margin-right: $marginMain+5px;
                     color: #fff;
                 }
-
+                
                 .menu__link:hover {                    
-                    color: $backgroundMain;  
-                    transition: all .4s ease-in-out;                  
+                    color: $backgroundMain; 
                 }
+
+                .submenu__link:hover {
+                    color: $backgroundMain;
+                }
+            }
+
+            .menu__item-dropdown:hover .menu-link__submenu {
+                display: block;                
             }
         }
 
