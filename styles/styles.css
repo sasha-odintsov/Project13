@@ -359,5 +359,8 @@ body {
   .wrapper .footer .footer__nav .footer__link {
     padding: 3.33333% 2.5%;
   }
+  .wrapper .footer .footer__item {
+    padding-bottom: 3.33333%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
