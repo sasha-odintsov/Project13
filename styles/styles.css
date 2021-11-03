@@ -174,6 +174,12 @@ body {
   padding: 20px;
 }
 
+.wrapper .header .header__menu .menu__item .menu-link__submenu {
+  position: absolute;
+  display: none;
+  border: #979696 1px solid;
+}
+
 .wrapper .header .header__menu .menu__item .menu__link-special {
   background-color: #3f3f3f;
   border-radius: 0 0 5px 5px;

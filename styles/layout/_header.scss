@@ -2,7 +2,7 @@ body {
     font-family: 'Arimo',
     sans-serif;
 }
-
+ 
 .wrapper {
     width: 78%;
     margin: 0 auto;
@@ -23,7 +23,13 @@ body {
                     display: block;
                     color: $colorTitle;
                     text-decoration: none;
-                    padding: $marginMain;                    
+                    padding: $marginMain; 
+                }
+
+                .menu-link__submenu {
+                    position: absolute;
+                    display: none;
+                    border: rgb(151, 150, 150) 1px solid;
                 }
                 
                 .menu__link-special {
