@@ -176,8 +176,14 @@ body {
 
 .wrapper .header .header__menu .menu__item .menu-link__submenu {
   position: absolute;
-  display: none;
-  border: #979696 1px solid;
+  border: #3f3f3f 1px solid;
+}
+
+.wrapper .header .header__menu .menu__item .subnav__link {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #8b7d6b;
 }
 
 .wrapper .header .header__menu .menu__item .menu__link-special {

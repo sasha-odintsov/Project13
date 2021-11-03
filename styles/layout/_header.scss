@@ -17,7 +17,7 @@ body {
             flex-wrap: wrap;
 
             .menu__item {
-                list-style: none;
+                list-style: none;                
                 
                 .menu__link {
                     display: block;
@@ -28,8 +28,19 @@ body {
 
                 .menu-link__submenu {
                     position: absolute;
-                    display: none;
-                    border: rgb(151, 150, 150) 1px solid;
+                    // display: none;
+                    border: $colorTitle 1px solid;
+                }
+
+                // .submenu__item {
+                //     display: block;
+                // }
+
+                .subnav__link {
+                    display: block;
+                    padding: $marginMain/2 $marginMain;
+                    text-decoration: none;
+                    color: $colorTitle-mini;
                 }
                 
                 .menu__link-special {
