@@ -98,3 +98,20 @@
         }
     }    
 }
+
+@media screen and (min-width:1240px) {
+
+    .wrapper {
+
+        .main {
+
+            .main__imgs-wrap {
+
+                .main__img-link {
+                    width: 45%;                    
+                }
+            }
+        }
+    }
+    
+}
