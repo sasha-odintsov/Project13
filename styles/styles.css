@@ -353,5 +353,8 @@ body {
   .wrapper .header .header__menu .menu__item .menu__link {
     padding: 10px;
   }
+  .wrapper .main .main__imgs-wrap .main__img-link {
+    min-width: 200px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
