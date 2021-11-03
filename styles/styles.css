@@ -322,4 +322,12 @@ body {
 .footer .footer__item {
   padding-bottom: 5%;
 }
+
+@media screen and (max-width: 599px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

@@ -3,3 +3,12 @@
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
+
+@media screen and (max-width: 599px) {
+    .header {
+        display: flex;
+
+       
+    }
+    
+}
