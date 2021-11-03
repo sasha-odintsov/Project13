@@ -43,5 +43,15 @@
                 }
             }
         }
+
+        .footer {
+
+            .footer__nav {
+
+                .footer__link {
+                    padding: $marginDeg/4 $marginDeg/6;
+                }
+            }
+        }
     }    
 }

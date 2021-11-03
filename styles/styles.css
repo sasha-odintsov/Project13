@@ -344,5 +344,8 @@ body {
   .wrapper .main .main__imgs-wrap .main__img-link {
     min-width: 150px;
   }
+  .wrapper .footer .footer__nav .footer__link {
+    padding: 2.5% 1.66667%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
