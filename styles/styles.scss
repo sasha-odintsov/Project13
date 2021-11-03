@@ -69,6 +69,10 @@
                     .menu__link {
                         padding: $marginMain/2;
                     }
+
+                    .submenu__link {
+                        padding: $marginMain/2 $marginMain+10;
+                    }
                 }        
             }
         }
