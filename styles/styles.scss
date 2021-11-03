@@ -82,5 +82,15 @@
                 }
             }
         }
+
+        .footer {
+
+            .footer__nav {
+
+                .footer__link {
+                    padding: $marginDeg/3 $marginDeg/4;
+                }
+            }
+        }
     }    
 }
