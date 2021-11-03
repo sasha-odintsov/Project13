@@ -12,8 +12,26 @@
         .header {
             display: flex; 
             
-            
+            .header__menu {
+                display: block;
+
+                .menu__item {
+                    
+                    .menu__link {
+                        padding: $marginMain/2;
+                    }
+                }
+            }
+
+            .header__heading {
+
+                .heading__wrap-primary {
+
+                    .heading-wrap-primary__title {
+                        font-size: 2rem;
+                    }
+                }
+            }
         }
-    }
-    
+    }    
 }
