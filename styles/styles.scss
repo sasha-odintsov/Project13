@@ -55,3 +55,22 @@
         }
     }    
 }
+
+@media screen and (min-width:600px) and (max-width:1239px) {
+
+    .wrapper {        
+
+        .header {            
+
+            .header__menu {                
+
+                .menu__item {
+
+                    .menu__link {
+                        padding: $marginMain/2;
+                    }
+                }        
+            }
+        }
+    }    
+}

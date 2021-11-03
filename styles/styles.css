@@ -348,4 +348,10 @@ body {
     padding: 2.5% 1.66667%;
   }
 }
+
+@media screen and (min-width: 600px) and (max-width: 1239px) {
+  .wrapper .header .header__menu .menu__item .menu__link {
+    padding: 10px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
