@@ -144,7 +144,7 @@ table {
 }
 
 body {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 .wrapper {
@@ -273,7 +273,7 @@ body {
 .main .main__heading-wrap .main__heading {
   font-size: 1.2rem;
   font-weight: bold;
-  font-family: 'Zen Antique Soft', serif;
+  font-family: 'Zen Antique Soft', serif;
 }
 
 .main .main__heading-wrap .main__heading-item {
@@ -311,7 +311,7 @@ body {
   background-color: #df6267;
   border: none;
   border-radius: 5px;
-  font-family: 'Zen Antique Soft', serif;
+  font-family: 'Zen Antique Soft', serif;
   font-size: 1rem;
   color: #fff;
   cursor: pointer;
@@ -342,7 +342,7 @@ body {
   display: inline-block;
   padding: 5% 3.33333%;
   text-decoration: none;
-  color: #0000ee;
+  color: red;
 }
 
 .footer .footer__item {
